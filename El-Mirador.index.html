@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Restaurante El Mirador – Juigalpa</title>
+   <link rel="stylesheet" href="styles.css">
+
+
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background-color: #fafafa; }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1600&q=60') center/cover no-repeat;
+            height: 380px;
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.9)
+        }
+
+        header h1 { font-size: 50px; font-weight: bold; }
+        header p { font-size: 22px; margin-top: 10px; }
+
+        nav {
+            background-color: #222;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white; text-decoration: none;
+            font-size: 18px; font-weight: bold;
+        }
+        nav a:hover { color: #ffcc00; }
+
+        section { padding: 40px 20px; text-align: center; }
+
+        .btn-whatsapp, .btn-instagram, .btn-facebook, .btn-tiktok {
+            position: fixed;
+            right: 20px;
+            width: 55px; height: 55px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 999;
+        }
+
+        .btn-instagram { bottom: 170px; }
+        .btn-facebook { bottom: 110px; }
+        .btn-tiktok { bottom: 50px; }
+
+        .social-icon {
+            width: 35px;
+            height: 35px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hotel & Restaurante El Mirador</h1>
+    <p>Juigalpa, Chontales</p>
+</header>
+
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contáctenos</a>
+    <a href="#reserva">Reserva Mesa</a>
+</nav>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p style="max-width: 800px; margin: 20px auto; font-size: 18px;">
+        En Hotel & Restaurante El Mirador te ofrecemos una experiencia única, 
+        combinando gastronomía tradicional, ambiente familiar y una vista espectacular 
+        de Juigalpa. Somos un lugar donde la calidad, el sabor y el confort se encuentran.
+    </p>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+        <img src="WhatsApp Image .jpg">
+	
+<img src="WhatsApp Image  (1).jpg">
+	<img src="WhatsApp Image (2).jpg"> 
+	<img src="WhatsApp Image 2025-11-20 at 11.36.05 AM.jpg"> 
+            </div>
+</section>
+
+<section id="contacto">
+    <h2>Contáctenos</h2>
+    <p style="font-size: 18px;">
+        📍 Juigalpa, Chontales, Nicaragua<br>
+        📞 Teléfono: 8833-6921<br>
+        💬 WhatsApp: 8233-6921<br>
+        ✉ Correo: hotelrestauranteelmirador@gmail.com
+    </p>
+</section>
+
+<section id="reserva">
+    <h2>Reservar Mesa</h2>
+    <p>Haz tu reservación directamente vía WhatsApp</p>
+
+    <a href="https://wa.me/50582336921?text=Hola,%20quiero%20reservar%20una%20mesa%20en%20El%20Mirador" 
+       target="_blank"
+       style="font-size:20px; padding:15px 25px; background:#25D366; color:white; text-decoration:none; border-radius:8px;">
+       Reservar por WhatsApp
+    </a>
+</section>
+
+<!-- BOTONES FLOTANTES DE REDES SOCIALES -->
+<a class="btn-instagram" href="https://www.instagram.com/hotelyrestaurantelmirador" target="_blank">
+    <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png">
+</a>
+
+<a class="btn-facebook" href="https://www.facebook.com/share/1Br7Fx7Aoo/?mibextid=wwXIfr" target="_blank">
+    <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png">
+</a>
+
+<a class="btn-tiktok" href="https://www.tiktok.com/@el.mirador.juigalpa" target="_blank">
+    <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+</a>
+
+<footer>
+    © 2025 Hotel & Restaurante El Mirador – Juigalpa, Chontales
+</footer>
+
+</body>
+</html>
